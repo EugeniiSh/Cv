@@ -492,9 +492,18 @@ body
     grid-column: 2/3;
     grid-row: 3/4;
 
-    .courses-item img
+    .courses-item span
     {
-      max-width: 60%;
+      color: #4758bc;
+      cursor: pointer;
+
+      @media (hover: hover)
+      {
+        &:hover
+        {
+          color: #8d9cee;
+        }
+      }
     }
   }
 
@@ -509,9 +518,18 @@ body
     grid-column: 2/3;
     grid-row: 4/5;
 
-    .languages-item img
+    .languages-item span
     {
-        max-width: 60%;
+      color: #4758bc;
+      cursor: pointer;
+
+      @media (hover: hover)
+      {
+        &:hover
+        {
+          color: #8d9cee;
+        }
+      }
     }
   }
 }
@@ -548,7 +566,10 @@ body
 
     @media(hover: hover)
     {
-      box-shadow: 0 0 15px rgba(0,0,0,0.5) inset;
+      &:hover
+      {
+        box-shadow: 0 0 15px rgba(0,0,0,0.5) inset;
+      }
     }
 
     @media (max-width: 768px)

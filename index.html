@@ -121,8 +121,7 @@
 
           <li class="courses-item">RS Schools Course «JavaScript/Front-end. Stage 0/1/2»</li>
           <li class="courses-item">
-            <p>Tomsk State University "Web programmer: from scratch to the first projects."</p>
-            <img src="assets/img/TGU_cert.jpg" alt="TGU_cert">
+            <p>Tomsk State University "Web programmer: from scratch to the first projects." <span data-info="TGU_cert">[Сertificate]</span></p>
           </li>
 
         </ul>
@@ -135,7 +134,61 @@
 
         <h2>Projects:</h2>
 
-        <ul class="projects-list main-ul">
+        <div class="slider-container"> <!-- Начало разметки слайдера -->
+          <div class="slider__arrow-left"> <!-- Блок для кнопки прокрутки к предыдущему слайду -->
+            <div class="arrow-left__block"><!-- Здесь может быть ваш контент --></div>
+          </div>
+    
+          <div class="slider-block"> <!-- Блок для линии слайдера и блокас пагинацией -->
+            <div class="slider-block__wrapper"> <!-- Ограничитель видимости линии слайдера -->
+              <div class="slider-line"> <!-- Линия слайдера -->
+                <!-- Установите необходимое количество элементов -->
+                <!-- Для этого скопируйте строку ниже необходимое количество раз -->
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="nonograms">nonograms</h3>
+                    <img src="./assets/img/nonograms.png" alt="nonograms">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="tic-tac-toe">tic-tac-toe</h3>
+                    <img src="./assets/img/tic-tac-toe.png" alt="tic-tac-toe">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="coffee-house">coffee-house</h3>
+                    <img src="./assets/img/coffee-house.png" alt="coffee-house">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="buy-pizza">buy-pizza</h3>
+                    <img src="./assets/img/buy-pizza.png" alt="buy-pizza">
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+    
+            <div class="slider-block__pagination"> <!-- Блок для пагинаци -->
+              <!-- Необходимое количество добавится автоматически, -->
+              <!-- в зависимости от общего количества элементов в линии слайдера -->
+              <!-- и количества одновременно видимых элементов -->
+              <!-- <div class="pagination-block"><div class="pagination-block__filler"></div></div> -->
+            </div>
+          </div>
+    
+          <div class="slider__arrow-right"> <!-- Блок для кнопки прокрутки к следующему слайду -->
+            <div class="arrow-right__block"><!-- Здесь может быть ваш контент --></div>
+          </div>
+        </div>
+
+        <!-- <ul class="projects-list main-ul">
 
           <li class="projects-item">
             <a href="http://t90265mj.beget.tech/pages/finalWork/finalWork.html" target="_blank">Buy Pizza</a>
@@ -152,7 +205,7 @@
               target="_blank">Tic-tac-toe</a>
           </li>
 
-        </ul>
+        </ul> -->
 
       </div>
     </section>
@@ -166,10 +219,7 @@
 
           <li class="languages-item">Russian - Native</li>
           <li class="languages-item">
-            <p>English - Intermediate</p>
-            <div class="languages-item__img">
-              <img src="assets/img/SE_cert.jpg" alt="SE_cert">
-            </div>
+            <p>English - Intermediate <span data-info="SE_cert">[Сertificate]</span></p>
           </li>
 
         </ul>
@@ -200,7 +250,9 @@
     </div>
   </footer>
 
-  <script src="./scripts/main.js"></script>
+  <div class="modal-window"></div>
+
+  <script src="./scripts/main.js" type="module"></script>
 </body>
 
 </html>

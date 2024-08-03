@@ -1,4 +1,10 @@
 /* +++ === _activators.scss === +++ */
+.active-modal
+{
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (max-width: 768px)
 {
   .activ-burger
