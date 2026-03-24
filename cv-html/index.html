@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="shortcut icon" href="assets/img/fav.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <nav class="nav">
+        <ul class="nav-list">
+
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-arrow">
+      <div class="arrow-block">
+
+        <div class="arrow-item half-arrow__top"></div>
+        <div class="arrow-item"></div>
+        <div class="arrow-item"></div>
+        <div class="arrow-item"></div>
+        <div class="arrow-item half-arrow__bottom"></div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main main-container">
+    <section class="main-info">
+      <div class="main-info-blocks">
+
+        <div class="block-photo">
+          <img src="assets/img/photo.jpg" alt="photo">
+        </div>
+
+        <div class="block-info">
+          <div class="info-name">
+
+            <h1>Evgenii Shmerko</h1>
+            <p>Front-end Developer</p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contacts section">
+      <div class="contacts-content" id="contacts">
+
+        <h2>Contact information:</h2>
+
+        <ul class="contacts-info main-ul">
+
+          <li class="contacts-item">E-mail: <a href="mailto:evgenii.shmerko@mail.ru">evgenii.shmerko@mail.ru</a></li>
+          <li class="contacts-item">Telegram: <a href="https://t.me/Evgeny_ae" target="_blank">@Evgeny_ae</a></li>
+          <li class="contacts-item">LinkedIn: <a href="https://www.linkedin.com/in/evgenii-shmerko-aa10b0262/" target="_blank">Evgenii Shmerko</a></li>
+          <li class="contacts-item">Discord: <a href="https://discordapp.com/users/928992690614444052/" target="_blank">evgenii_ae</a></li>
+          <li class="contacts-item">Github: <a href="https://github.com/EugeniiSh" target="_blank">EugeniiSh</a></li>
+          
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="about section">
+      <div class="about-content" id="about">
+
+        <h2>About Myself:</h2>
+
+        <p class="about-text">
+          My goal is to develop in frontend development, creating user-friendly and functional interfaces for users.
+          However, my professional career began with a teaching degree, which taught me the value of knowledge transfer 
+          and helped develop my communication skills. Then, after qualifying as a top-level electric welder, 
+          I acquired practical technical skills and an understanding of the importance of high-quality execution. 
+          Now, having switched to web development, I apply my accumulated knowledge and experience to create effective solutions.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="skills section">
+      <div class="skills-content" id="skills">
+
+        <h2>Skills:</h2>
+
+        <ul class="skills-list main-ul">
+          <li class="skills-item">JavaScript/TypeScript</li>
+          <li class="skills-item">HTML, CSS/SCSS</li>
+          <li class="skills-item">ESLint, Prettier, Husky</li>
+          <li class="skills-item">Webpack</li>
+          <li class="skills-item">Git, GitHub, Figma</li>
+          <li class="skills-item">VS Code</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="courses section">
+      <div class="courses-content" id="courses">
+
+        <h2>Courses:</h2>
+
+        <ul class="courses-list main-ul">
+
+          <li class="courses-item">RS Schools Course «JavaScript/Front-end. Stage 0/1/2»</li>
+          <li class="courses-item">
+            <p>Tomsk State University "Web programmer: from scratch to the first projects." <span data-info="TGU_cert">[Сertificate]</span></p>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="projects section">
+      <div class="projects-content" id="projects">
+
+        <h2>Projects:</h2>
+
+        <div class="slider-container"> <!-- Начало разметки слайдера -->
+          <div class="slider__arrow-left"> <!-- Блок для кнопки прокрутки к предыдущему слайду -->
+            <div class="arrow-left__block"><!-- Здесь может быть ваш контент --></div>
+          </div>
+    
+          <div class="slider-block"> <!-- Блок для линии слайдера и блокас пагинацией -->
+            <div class="slider-block__wrapper"> <!-- Ограничитель видимости линии слайдера -->
+              <div class="slider-line"> <!-- Линия слайдера -->
+                <!-- Установите необходимое количество элементов -->
+                <!-- Для этого скопируйте строку ниже необходимое количество раз -->
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="rss-puzzle">rss-puzzle</h3>
+                    <img src="./assets/img/rss-puzzle.png" alt="rss-puzzle">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="nonograms">nonograms</h3>
+                    <img src="./assets/img/nonograms.png" alt="nonograms">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="tic-tac-toe">tic-tac-toe</h3>
+                    <img src="./assets/img/tic-tac-toe.png" alt="tic-tac-toe">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="coffee-house">coffee-house</h3>
+                    <img src="./assets/img/coffee-house.png" alt="coffee-house">
+                  </div>
+                </div>
+
+                <div class="slider-line__item">
+                  <div class="line-item__block">
+                    <h3 data-info="buy-pizza">buy-pizza</h3>
+                    <img src="./assets/img/buy-pizza.png" alt="buy-pizza">
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+    
+            <div class="slider-block__pagination"> <!-- Блок для пагинаци -->
+              <!-- Необходимое количество добавится автоматически, -->
+              <!-- в зависимости от общего количества элементов в линии слайдера -->
+              <!-- и количества одновременно видимых элементов -->
+              <!-- <div class="pagination-block"><div class="pagination-block__filler"></div></div> -->
+            </div>
+          </div>
+    
+          <div class="slider__arrow-right"> <!-- Блок для кнопки прокрутки к следующему слайду -->
+            <div class="arrow-right__block"><!-- Здесь может быть ваш контент --></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="languages section">
+      <div class="languages-content" id="languages">
+
+        <h2>Languages:</h2>
+
+        <ul class="languages-list main-ul">
+
+          <li class="languages-item">Russian - Native</li>
+          <li class="languages-item">
+            <p>English - Intermediate <span data-info="SE_cert">[Сertificate]</span></p>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-date">
+
+          <div class="date-block">
+            <p>2023</p>
+          </div>
+
+          <div class="git-block">
+            <a href="https://github.com/EugeniiSh" target="_blank">EugeniiSh</a>
+          </div>
+          
+        </div>
+
+        <div class="footer-link">
+          <a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" alt="rs_school_js"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-window"></div>
+
+  <script src="./scripts/data.js" type="module"></script>
+  <script src="./scripts/slider.js" type="module"></script>
+  <script src="./scripts/main.js" type="module"></script>
+</body>
+
+</html>
+
+<!-- https://eugeniish.github.io/rsschool-cv/ -->
