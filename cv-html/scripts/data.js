@@ -1,5 +1,14 @@
 export const data =
 {
+  ['rss-puzzle']:
+  {
+    img: './assets/img/rss-puzzle.png',
+    status: 'Pet project. Game. RSSchool Stage 2 task',
+    stack: 'JS/TS, CSS 3d Animation, Webpack, ESLint, Pretter',
+    contribution: 'Completely from the start.',
+    deploy: 'https://eugeniish.github.io/RsSchool_JSFE2024Q4_S1_S2/rss-puzzle/build/',
+  },
+
   nonograms:
   {
     img: './assets/img/nonograms.png',
